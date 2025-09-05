@@ -1,0 +1,19 @@
+# SERVER
+server:
+  port: 80
+spring:
+  application:
+    name: @project.name@
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:postgresql://${DATABASE-SER-FIN-CON-BAN-SCHE-API-JAV-SERVERNAME}:${DATABASE-SER-FIN-CON-BAN-SCHE-API-JAV-PORT}/${DATABASE-SER-FIN-CON-BAN-SCHE-API-JAV-DBNAME}?ApplicationName=servicos-financeiros-conta-banco-sched
+    username: ${DATABASE-SER-FIN-CON-BAN-SCHE-API-JAV-USERNAME}
+    password: ${DATABASE-SER-FIN-CON-BAN-SCHE-API-JAV-PASSWORD}
+    hikari:
+      minimumIdle: 2
+      idleTimeout: 30000
+      connectionTimeout: 30000
+      maximumPoolSize: 10
+      maxLifetime: 120000
