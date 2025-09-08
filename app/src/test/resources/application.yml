@@ -1,0 +1,4 @@
+# SERVER
+spring:
+  profiles:
+    active: test
