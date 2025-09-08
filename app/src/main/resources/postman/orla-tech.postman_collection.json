@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "4be26f93-b1a7-4516-b4c8-75d6afc85b0e",
+		"name": "orla-tech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25167261",
+		"_collection_link": "https://crimson-equinox-536434.postman.co/workspace/My-Workspace~ed560f72-56fc-46d0-8c2d-f1eaf3877a89/collection/25167261-4be26f93-b1a7-4516-b4c8-75d6afc85b0e?action=share&source=collection_link&creator=25167261"
+	},
+	"item": [
+		{
+			"name": "Funcionarios",
+			"item": [
+				{
+					"name": "Listar Funcionarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/v1/funcionarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"v1",
+								"funcionarios"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "<int>",
+									"description": "Tamanho da página",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "<int>",
+									"description": "Número da página",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "<string,string>",
+									"description": "Ordem dos dados (ascendente ou descendente)\n",
+									"disabled": true
+								},
+								{
+									"key": "nome",
+									"value": "<string>",
+									"description": "Nome do funcionario",
+									"disabled": true
+								},
+								{
+									"key": "cpf",
+									"value": "<string>",
+									"description": "CPF com 11 numeros",
+									"disabled": true
+								},
+								{
+									"key": "salarioInicial",
+									"value": "<decimal>",
+									"description": "Salario inicial (formato: 00.00)",
+									"disabled": true
+								},
+								{
+									"key": "salarioFinal",
+									"value": "<decimal>",
+									"description": "Salario final (formato: 00.00)",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar Funcionario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Luis Felipe Rodrigues\",\r\n    \"cpf\": \"05815147346\",\r\n    \"email\": \"luisfelipebr1995@gmail.com\",\r\n    \"salario\": 9500.00,\r\n    \"idProjetos\": [\r\n        -4, 4, 5, 23, 52, 91, 9, 14, 2, 22, 30, 50, 200, 500, 10000\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/v1/funcionarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"v1",
+								"funcionarios"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "<int>",
+									"description": "Tamanho da página",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "<int>",
+									"description": "Número da página",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "<string,string>",
+									"description": "Ordem dos dados (ascendente ou descendente)\n",
+									"disabled": true
+								},
+								{
+									"key": "nome",
+									"value": "<string>",
+									"description": "Nome do funcionario",
+									"disabled": true
+								},
+								{
+									"key": "cpf",
+									"value": "<string>",
+									"description": "CPF com 11 numeros",
+									"disabled": true
+								},
+								{
+									"key": "salarioInicial",
+									"value": "<decimal>",
+									"description": "Salario inicial (formato: 00.00)",
+									"disabled": true
+								},
+								{
+									"key": "salarioFinal",
+									"value": "<decimal>",
+									"description": "Salario final (formato: 00.00)",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Projetos",
+			"item": [
+				{
+					"name": "Listar Projetos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/v1/projetos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"v1",
+								"projetos"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "<int>",
+									"description": "Tamanho da página",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "<int>",
+									"description": "Número da página",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "<string,string>",
+									"description": "Ordem dos dados (ascendente ou descendente)\n",
+									"disabled": true
+								},
+								{
+									"key": "nome",
+									"value": "<string>",
+									"description": "Nome do projeto",
+									"disabled": true
+								},
+								{
+									"key": "dataInicial",
+									"value": "<date>",
+									"description": "Data inicial (formato: yyyy/MM/dd)",
+									"disabled": true
+								},
+								{
+									"key": "dataFinal",
+									"value": "<date>",
+									"description": "Data final (formato: yyyy/MM/dd)",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar Projeto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Orla-Tech\",\r\n    \"idFuncionarios\": [\r\n        1, 2, 4, 5, 12, 30, 22, 3, 90, 11, 33, 22, 98, -23, -2341, 132432\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/v1/projetos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"v1",
+								"projetos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
