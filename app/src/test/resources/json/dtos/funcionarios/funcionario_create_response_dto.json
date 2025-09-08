@@ -1,0 +1,64 @@
+{
+  "id": 1001,
+  "nome": "Luis Felipe Rodrigues",
+  "cpf": "05815147346",
+  "email": "luisfelipebr1995@gmail.com",
+  "salario": 9500.00,
+  "projetos": [
+    {
+      "id": 14,
+      "nome": "Electrode McKenzie-McKenzie",
+      "dataInicio": "2025-09-08T15:25:36.158213"
+    },
+    {
+      "id": 22,
+      "nome": "Parasect Watsica-Watsica",
+      "dataInicio": "2025-09-08T15:25:36.18706"
+    },
+    {
+      "id": 50,
+      "nome": "Haunter Fahey-Fahey",
+      "dataInicio": "2025-09-08T15:25:36.330766"
+    },
+    {
+      "id": 5,
+      "nome": "Rhyhorn Welch, Welch and Welch",
+      "dataInicio": "2025-09-08T15:25:36.102708"
+    },
+    {
+      "id": 23,
+      "nome": "Moltres Dare, Dare and Dare",
+      "dataInicio": "2025-09-08T15:25:36.190659"
+    },
+    {
+      "id": 4,
+      "nome": "Venonat Moen, Moen and Moen",
+      "dataInicio": "2025-09-08T15:25:36.099258"
+    },
+    {
+      "id": 9,
+      "nome": "Gyarados Rohan Inc",
+      "dataInicio": "2025-09-08T15:25:36.134171"
+    },
+    {
+      "id": 52,
+      "nome": "Tentacruel Boehm-Boehm",
+      "dataInicio": "2025-09-08T15:25:36.338972"
+    },
+    {
+      "id": 2,
+      "nome": "Blastoise Sauer LLC",
+      "dataInicio": "2025-09-08T15:25:36.093425"
+    },
+    {
+      "id": 30,
+      "nome": "Psyduck Baumbach, Baumbach and Baumbach",
+      "dataInicio": "2025-09-08T15:25:36.218769"
+    },
+    {
+      "id": 91,
+      "nome": "Magikarp Larkin-Larkin",
+      "dataInicio": "2025-09-08T15:25:36.487841"
+    }
+  ]
+}

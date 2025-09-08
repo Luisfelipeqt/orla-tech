@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "salario": 17089.08,
+    "atualizado_em": "2025-09-08 18:23:00.790131",
+    "data_criacao": "2025-09-08 18:23:00.790131",
+    "cpf": "71636652883",
+    "email": "hollis.zieme@hotmail.com",
+    "nome": "Freida Witting"
+  },
+  {
+    "id": 2,
+    "salario": 72540.32,
+    "atualizado_em": "2025-09-08 18:23:00.796444",
+    "data_criacao": "2025-09-08 18:23:00.796444",
+    "cpf": "59086329101",
+    "email": "luis.raynor@hotmail.com",
+    "nome": "Noemy Pacocha"
+  },
+  {
+    "id": 3,
+    "salario": 87204.58,
+    "atualizado_em": "2025-09-08 18:23:00.799551",
+    "data_criacao": "2025-09-08 18:23:00.799551",
+    "cpf": "87815772498",
+    "email": "marlin.schaefer@hotmail.com",
+    "nome": "Jaycee West"
+  },
+  {
+    "id": 4,
+    "salario": 96942.05,
+    "atualizado_em": "2025-09-08 18:23:00.804478",
+    "data_criacao": "2025-09-08 18:23:00.804478",
+    "cpf": "80115425403",
+    "email": "ben.simonis@yahoo.com",
+    "nome": "Cynthia Koss"
+  },
+  {
+    "id": 5,
+    "salario": 90391.91,
+    "atualizado_em": "2025-09-08 18:23:00.811192",
+    "data_criacao": "2025-09-08 18:23:00.811192",
+    "cpf": "88752782298",
+    "email": "mateo.gleichner@hotmail.com",
+    "nome": "Delfina Kertzmann"
+  },
+  {
+    "id": 6,
+    "salario": 96110.15,
+    "atualizado_em": "2025-09-08 18:23:00.814368",
+    "data_criacao": "2025-09-08 18:23:00.814368",
+    "cpf": "53556430193",
+    "email": "luisa.gutkowski@hotmail.com",
+    "nome": "Lorine Grant Sr."
+  },
+  {
+    "id": 7,
+    "salario": 25168.52,
+    "atualizado_em": "2025-09-08 18:23:00.816796",
+    "data_criacao": "2025-09-08 18:23:00.816796",
+    "cpf": "64232160370",
+    "email": "reanna.buckridge@yahoo.com",
+    "nome": "Roel Breitenberg"
+  },
+  {
+    "id": 8,
+    "salario": 98199.69,
+    "atualizado_em": "2025-09-08 18:23:00.822209",
+    "data_criacao": "2025-09-08 18:23:00.822209",
+    "cpf": "91172497400",
+    "email": "shanon.grimes@yahoo.com",
+    "nome": "Angie Kessler V"
+  },
+  {
+    "id": 9,
+    "salario": 69839.21,
+    "atualizado_em": "2025-09-08 18:23:00.825392",
+    "data_criacao": "2025-09-08 18:23:00.825392",
+    "cpf": "16795629910",
+    "email": "jennifer.murphy@gmail.com",
+    "nome": "Dr. Liliana Goyette"
+  },
+  {
+    "id": 10,
+    "salario": 98285.21,
+    "atualizado_em": "2025-09-08 18:23:00.827998",
+    "data_criacao": "2025-09-08 18:23:00.827998",
+    "cpf": "71293455865",
+    "email": "adelle.bernier@gmail.com",
+    "nome": "Ricky Roob"
+  }
+]
