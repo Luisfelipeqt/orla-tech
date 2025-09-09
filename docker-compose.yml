@@ -39,7 +39,7 @@ services:
       SPRING_DATASOURCE_USERNAME: orla-tech
       SPRING_DATASOURCE_PASSWORD: orla-tech
     ports:
-      - "8081:80"
+      - "8081:8080"
     networks:
       - internal_network
     depends_on:
